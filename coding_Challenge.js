@@ -55,6 +55,17 @@ else{
 }
 
 // Coding Challenge-4
+// case-1
 let bill = 430;
 let tip = bill >= 50 && bill <= 300 ? (bill * 15) / 100 : ( bill * 20) / 100;
+console.log(`\n your bill is ${Number(bill)} your tip is ${Number(tip)}  so the total bill is ${bill + tip}`);
+
+// case-2
+bill = 40;
+tip = bill >= 50 && bill <= 300 ? (bill * 15) / 100 : ( bill * 20) / 100;
+console.log(`\n your bill is ${Number(bill)} your tip is ${Number(tip)}  so the total bill is ${bill + tip}`);
+
+// case-3
+bill = 275;
+tip = bill >= 50 && bill <= 300 ? (bill * 15) / 100 : ( bill * 20) / 100;
 console.log(`\n your bill is ${Number(bill)} your tip is ${Number(tip)}  so the total bill is ${bill + tip}`);
