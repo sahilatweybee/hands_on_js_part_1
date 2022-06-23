@@ -2,7 +2,7 @@
 let country = "India";
 const continent = "Asia";
 let population = 1400000000;
-console.log(country + "\t" + continent + "\t" + population + "\n");
+console.log("\n" + country + "\t" + continent + "\t" + population + "\n");
 
 //Lecture: Data Types
 isIsland = false;
@@ -17,7 +17,7 @@ console.log(population/2);
 console.log(population+1);
 let finlandPopulation = 6000000;
 
-if(population>finlandPopulation){
+if(population > finlandPopulation){
     console.log("\nyes \n");
 }
 else{
@@ -27,7 +27,7 @@ let avgPopulation=3300000;
 let isAvg=population < avgPopulation;
     console.log("\n" + isAvg + "\n");
 
-if(population>avgPop){
+if(population > avgPopulation){
     console.log("\nIndia's population is above average \n");
 }
 else{
