@@ -55,3 +55,6 @@ else{
 }
 
 // Coding Challenge-4
+let bill = 430;
+let tip = bill >= 50 && bill <= 300 ? (bill * 15) / 100 : ( bill * 20) / 100;
+console.log(`\n your bill is ${Number(bill)} your tip is ${Number(tip)}  so the total bill is ${bill + tip}`);
